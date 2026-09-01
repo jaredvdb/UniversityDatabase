@@ -1,7 +1,7 @@
-INSERT INTO Students (id, name, major, dob, date_enrolled) -- Data randomly generated
+INSERT INTO Students (id, name, major, dob, date_enrolled) -- Including some default and NULL values in fields that allow them
 VALUES
 (1, 'Emma Carter', 'Computer Science', '2003-04-12', '2022-08-22'),
-(2, 'Liam Brooks', 'Business Administration', '2002-11-03', '2021-08-23'),
+(2, 'Liam Brooks', DEFAULT, NULL, '2021-08-23'),
 (3, 'Olivia Bennett', 'Psychology', '2004-02-18', '2023-08-21'),
 (4, 'Noah Mitchell', 'Information Science', '2003-07-09', '2022-08-22'),
 (5, 'Ava Collins', 'Biology', '2002-05-27', '2021-08-23'),
@@ -9,20 +9,20 @@ VALUES
 (7, 'Sophia Reed', 'Marketing', '2003-01-31', '2022-08-22'),
 (8, 'Mason Turner', 'Finance', '2001-12-06', '2020-08-24'),
 (9, 'Isabella Cooper', 'Information Science', '2004-06-11', '2023-08-21'),
-(10, 'Lucas Morgan', 'Exploratory', '2005-03-25', '2024-08-19'),
+(10, 'Lucas Morgan', DEFAULT, '2005-03-25', '2024-08-19'),
 
 (11, 'Mia Richardson', 'Psychology', '2003-10-08', '2022-08-22'),
 (12, 'Jackson Bailey', 'Engineering', '2002-08-17', '2021-08-23'),
-(13, 'Charlotte Foster', 'Biology', '2004-01-22', '2023-08-21'),
+(13, 'Charlotte Foster', DEFAULT, '2004-01-22', '2023-08-21'),
 (14, 'Aiden Hughes', 'Computer Science', '2003-05-15', '2022-08-22'),
 (15, 'Amelia Price', 'Accounting', '2002-09-29', '2021-08-23'),
 (16, 'Elijah Sanders', 'Information Science', '2005-02-04', '2024-08-19'),
 (17, 'Harper Ross', 'Marketing', '2003-12-19', '2022-08-22'),
 (18, 'James Powell', 'Engineering', '2001-06-30', '2020-08-24'),
 (19, 'Evelyn Jenkins', 'Finance', '2004-04-07', '2023-08-21'),
-(20, 'Benjamin Perry', 'Exploratory', '2005-07-16', '2024-08-19'),
+(20, 'Benjamin Perry', DEFAULT, '2005-07-16', '2024-08-19'),
 
-(21, 'Abigail Long', 'Biology', '2003-03-02', '2022-08-22'),
+(21, 'Abigail Long', 'Biology', NULL, '2022-08-22'),
 (22, 'Henry Patterson', 'Computer Science', '2002-10-21', '2021-08-23'),
 (23, 'Emily Coleman', 'Information Science', '2004-08-13', '2023-08-21'),
 (24, 'Alexander Simmons', 'Business Administration', '2003-06-05', '2022-08-22'),
@@ -34,9 +34,9 @@ VALUES
 (30, 'Samuel Fisher', 'Finance', '2001-04-18', '2020-08-24'),
 
 (31, 'Chloe Henderson', 'Information Science', '2003-11-11', '2022-08-22'),
-(32, 'David Hamilton', 'Biology', '2002-07-26', '2021-08-23'),
+(32, 'David Hamilton', DEFAULT, '2002-07-26', '2021-08-23'),
 (33, 'Victoria Graham', 'Computer Science', '2004-03-17', '2023-08-21'),
-(34, 'Joseph Wallace', 'Exploratory', '2005-09-02', '2024-08-19'),
+(34, 'Joseph Wallace', DEFAULT, '2005-09-02', '2024-08-19'),
 (35, 'Lily Woods', 'Psychology', '2003-02-23', '2022-08-22'),
 (36, 'Christopher West', 'Engineering', '2002-12-15', '2021-08-23'),
 (37, 'Hannah Cole', 'Business Administration', '2004-07-01', '2023-08-21'),
@@ -45,12 +45,12 @@ VALUES
 (40, 'Nathan Spencer', 'Computer Science', '2001-09-08', '2020-08-24'),
 
 (41, 'Natalie Gardner', 'Accounting', '2003-08-04', '2002-08-22'),
-(42, 'Ryan Porter', 'Finance', '2002-03-12', '2021-08-23'),
+(42, 'Ryan Porter', 'Finance', NULL, '2021-08-23'),
 (43, 'Layla Hunter', 'Biology', '2004-10-30', '2023-08-21'),
 (44, 'Thomas Elliott', 'Information Science', '2003-01-16', '2022-08-22'),
-(45, 'Nora Armstrong', 'Exploratory', '2005-12-03', '2024-08-19'),
+(45, 'Nora Armstrong', DEFAULT, '2005-12-03', '2024-08-19'),
 (46, 'Charles Dean', 'Computer Science', '2002-06-22', '2021-08-23'),
 (47, 'Audrey Mills', 'Psychology', '2004-05-14', '2023-08-21'),
-(48, 'Jonathan Lawson', 'Engineering', '2003-10-27', '2022-08-22'),
+(48, 'Jonathan Lawson', DEFAULT, '2003-10-27', '2022-08-22'),
 (49, 'Lucy Chapman', 'Business Administration', '2005-04-06', '2024-08-19'),
-(50, 'Isaac Marshall', 'Information Science', '2001-11-19', '2020-08-24');
+(50, 'Isaac Marshall', 'Information Science', NULL, '2020-08-24');
