@@ -23,7 +23,7 @@ VALUES
 (20, 'Benjamin Perry', DEFAULT, '2005-07-16', '2024-08-19'),
 
 (21, 'Abigail Long', 'Biology', NULL, '2022-08-22'),
-(22, 'Henry Patterson', 'Computer Science', '2002-10-21', '2021-08-23'),
+(22, 'Nicholas Clapsis', 'Biology', '2002-10-21', '2021-08-23'),
 (23, 'Emily Coleman', 'Information Science', '2004-08-13', '2023-08-21'),
 (24, 'Alexander Simmons', 'Business Administration', '2003-06-05', '2022-08-22'),
 (25, 'Ella Bryant', 'Psychology', '2005-01-28', '2024-08-19'),
